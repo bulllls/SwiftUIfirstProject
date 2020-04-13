@@ -13,6 +13,10 @@
 		4495C1292444863700F36BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4495C1282444863700F36BFD /* Assets.xcassets */; };
 		4495C12C2444863700F36BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4495C12B2444863700F36BFD /* Preview Assets.xcassets */; };
 		4495C12F2444863700F36BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4495C12D2444863700F36BFD /* LaunchScreen.storyboard */; };
+		4495C1392444952C00F36BFD /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4495C1382444952C00F36BFD /* TopView.swift */; };
+		4495C13B24449BAA00F36BFD /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4495C13A24449BAA00F36BFD /* Cell.swift */; };
+		4495C1462444A8CA00F36BFD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4495C1452444A8CA00F36BFD /* Data.swift */; };
+		4495C14A2444A8FF00F36BFD /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4495C1492444A8FF00F36BFD /* UserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		4495C12B2444863700F36BFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4495C12E2444863700F36BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4495C1302444863700F36BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4495C1382444952C00F36BFD /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		4495C13A24449BAA00F36BFD /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		4495C1442444A8AD00F36BFD /* userModelData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userModelData.json; sourceTree = "<group>"; };
+		4495C1452444A8CA00F36BFD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4495C1492444A8FF00F36BFD /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +65,13 @@
 		4495C1212444863300F36BFD /* CourseListApp */ = {
 			isa = PBXGroup;
 			children = (
+				4495C1432444A89800F36BFD /* Resources */,
+				4495C1422444A88A00F36BFD /* Model */,
 				4495C1222444863300F36BFD /* AppDelegate.swift */,
 				4495C1242444863300F36BFD /* SceneDelegate.swift */,
 				4495C1262444863300F36BFD /* ContentView.swift */,
+				4495C1382444952C00F36BFD /* TopView.swift */,
+				4495C13A24449BAA00F36BFD /* Cell.swift */,
 				4495C1282444863700F36BFD /* Assets.xcassets */,
 				4495C12D2444863700F36BFD /* LaunchScreen.storyboard */,
 				4495C1302444863700F36BFD /* Info.plist */,
@@ -73,6 +86,23 @@
 				4495C12B2444863700F36BFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4495C1422444A88A00F36BFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4495C1452444A8CA00F36BFD /* Data.swift */,
+				4495C1492444A8FF00F36BFD /* UserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4495C1432444A89800F36BFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4495C1442444A8AD00F36BFD /* userModelData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +178,11 @@
 			files = (
 				4495C1232444863300F36BFD /* AppDelegate.swift in Sources */,
 				4495C1252444863300F36BFD /* SceneDelegate.swift in Sources */,
+				4495C13B24449BAA00F36BFD /* Cell.swift in Sources */,
+				4495C14A2444A8FF00F36BFD /* UserResponse.swift in Sources */,
+				4495C1392444952C00F36BFD /* TopView.swift in Sources */,
 				4495C1272444863300F36BFD /* ContentView.swift in Sources */,
+				4495C1462444A8CA00F36BFD /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
